@@ -1,0 +1,143 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+nav{
+    background-color: #1F3A52;
+    height: 70px;
+    background-image: url(../img/personabarra.png);
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 40px;  
+    
+}
+.logo{
+    height: 90px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: -200px;
+
+}
+a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    margin-left: 60px;
+    
+}
+.home{
+    margin-left: 5%;
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    background-image: url(../img/lupa.png);
+    background-position: 350px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.carrusell{
+    height: 400px;
+    width: 1210px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.slider1{
+    height: 400px;
+    width: 1200px;
+}
+
+/* Cartas de Informacion*/ 
+.info{
+    background-color: #addcaa6b;
+    margin-top: 40px;
+    display: flex;
+    height: 500px;
+    font-family:  "Raleway", sans-serif;
+}
+.saludcora{
+    margin-top: 20px;
+    height: 450px;
+    width: 28%;
+    padding: 5px 10px 5px 5px;
+    text-align: justify;
+    margin-left: 40px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.505) ;
+}
+.salud{
+    margin-left: 10px;
+    object-fit: cover; /* Esto evita que la imagen se estire o se encoja */
+}
+
+/* Cartas de valores*/ 
+.book{
+    margin-top: 50px;
+    background-color: #ffffff;
+    width: 260px;
+    height: 410px;
+    margin-left: 100px;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+}
+h2{
+  text-align: center;
+}
+.parrafovalores{
+    text-align: justify;
+}
+.imgvalores{
+    height: 180px;
+    width: auto;
+    margin-left: 40px;
+}
+.book2{
+    margin-top: -420px;
+    background-color: #ffffff;
+    width: 260px;
+    height: 410px;
+    margin-left: 500px;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+}
+.book3{
+    margin-top: -420px;
+    background-color: #ffffff;
+    width: 260px;
+    height: 410px;
+    margin-left: 900px;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+}
+
+/* footer o pie de pagina */
+.piedepagina{
+    background-color: #1F3A52;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos hacia abajo */
+    align-items: center;    /* Centra todo el contenido */
+    padding: 20px ;
+}
+.textofooter{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+}
+i {
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.fa-instagram{
+    margin-left: 80px;
+}

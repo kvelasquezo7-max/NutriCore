@@ -1,0 +1,91 @@
+body{
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.registrarse{
+    background-color: #ffff;
+    height: 270px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.nombre{
+    margin-right: 20px;
+    background-image: url(none);
+    border-radius: 0%;
+    margin-left: -1px ;
+    width: 400px;
+    border: 1px solid #67678c;
+    font-size: 16px;
+}
+.email{
+    margin-right: 20px;
+    background-image: url(none);
+    border-radius: 0%;
+    margin-left: -1px ;
+    width: 400px;
+    border: 1px solid #67678c;
+    font-size: 16px;
+}
+.contraseña{
+    margin-right: 20px;
+    background-image: url(none);
+    border-radius: 0%;
+    margin-left: -1px ;
+    width: 400px;
+    border: 1px solid #67678c;
+    font-size: 16px;
+}
+.confirma{
+    margin-right: 20px;
+    background-image: url(none);
+    border-radius: 0%;
+    margin-left: -1px ;
+    width: 400px;
+    height: 20px;
+    border: 1px solid #67678c;
+    font-size: 16px;
+}
+button{
+    height: 30px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: none;
+    background-color: rgba(255, 177, 177, 0.687);
+    transition: 1s;
+}
+button:hover{
+    border: 1px solid #67678c
+}
+.otrasformas{
+    background-color: #ffff;
+    height: 230px;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -309px;
+    margin-left: 700px;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+}
+.face{
+    height: 60px;
+    width: 400px;
+}
+.gmail{
+    height: 60px;
+    width: 400px;
+}
+.apple{
+    height: 60px;
+    width: 400px;
+    margin-right: 20px;
+}
+.redes{
+    margin-left: -50px;
+}
